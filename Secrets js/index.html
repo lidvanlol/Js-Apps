@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>assigment</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+
+
+            <h2>Assignment</h2>
+            <form id="form" name="formsubmit">
+                <input type="text" placeholder="Type your message" id="message" name="message">
+                <br/>
+                <button type="submit" class="button"   name="forsubmit" onclick="encodeMessage(); this.disabled=true;  ">Submit</button>
+        <button type=" reset" onClick="window.location.reload();" class="btn-reset">Reset</button>
+            </form>
+
+            <div class="box">
+                <h3>Count</h3>
+                <div id="count">
+
+
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h3>Square without encoding</h3>
+                <p id="encoded_rectangle"></p>
+            </div>
+
+            <div class="box">
+                <h3>Encoded Square </h3>
+                <p id="encoded_chunks"></p>
+            </div>
+
+            <div class="box">
+                <h3>Result with Encoding</h3>
+                <p id="result"></p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
